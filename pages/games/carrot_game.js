@@ -249,14 +249,14 @@ window.addEventListener('load', function() {
                 var scream = new Audio('pages/games/Scream2.mp3');
                 volume_set(scream);
                 scream.play();
-                this.image = document.getElementById('pages/games/carrot_horrified');
+                this.image = document.getElementById('carrot_horrified');
             } else if (randomNum >= 1 && randomNum < 2) {
                 version = 2;
                 pull.play();
                 var croak = new Audio('pages/games/Croak.mp3');
                 volume_set(croak);
                 croak.play();
-                this.image = document.getElementById('pages/games/carrot_disgusting');
+                this.image = document.getElementById('carrot_disgusting');
             } else if (randomNum >= 2 && randomNum < 5) {
                 version = 3;
                 pull.play();
