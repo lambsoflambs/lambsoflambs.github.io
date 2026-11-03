@@ -257,14 +257,14 @@ window.addEventListener('load', function() {
                 volume_set(croak);
                 croak.play();
                 this.image = document.getElementById('carrot_disgusting');
-            } else if (randomNum >= 2 && randomNum < 50) {
+            } else if (randomNum >= 2 && randomNum < 5) {
                 version = 3;
                 pull.play();
                 var triumph = new Audio('pages/games/Triumph.mp3');
                 volume_set(triumph);
                 triumph.play();
                 this.image = document.getElementById('carrot_happy');
-            } else if (randomNum >= 50 && randomNum < 51) {
+            } else if (randomNum >= 5 && randomNum < 15) {
                 version = 4;
                 var pull2 = new Audio('pages/games/Squish Pop2.mp3');
                 volume_set(pull2);
